@@ -1,0 +1,7 @@
+apple 2
+pear 3
+cherry 5
+this is a bad line
+apple 3
+pear 6
+apple 1

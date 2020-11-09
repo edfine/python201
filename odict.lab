@@ -1,0 +1,34 @@
+d1 = {}
+d2 = {}
+d1['foo'] = 1
+d1['bar'] = 2
+d1['other'] = 3
+d2['bar'] = 2
+d2['other'] = 3
+d2['foo'] = 1
+print('d1 =', d1)
+print('d2 =', d2)
+print(d1 == d2)
+
+from collections import OrderedDict
+od1 = OrderedDict()
+od2 = OrderedDict()
+od1['foo'] = 'bar'
+od1['baz'] = 'qux'
+od2['baz'] = 'qux'
+od2['foo'] = 'bar'
+
+print('od1 = ', od1)
+print('od2 = ', od2)
+print(od1 == od2)
+
+od1 = OrderedDict()
+od2 = OrderedDict()
+od1['foo'] = 'bar'
+od1['baz'] = 'qux'
+od2['foo'] = 'bar'
+od2['baz'] = 'qux'
+
+print('od1 = ', od1)
+print('od2 = ', od2)
+print(od1 == od2)
