@@ -9,4 +9,4 @@ def tail(f, num):
 
 f = open('poem.txt')
 tail(f, 3)
-f.close
+f.close()
