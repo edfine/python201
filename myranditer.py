@@ -15,6 +15,7 @@ class MyRandomIterator(object):
         else:
             raise StopIteration
         
-mri = MyRandomIterator('hello')
-for item in mri:
-  print(item)
+if __name__ == "__main__":        
+    mri = MyRandomIterator('I have learned a lot in this class!')
+    for item in mri:
+        print(item, end=' ')

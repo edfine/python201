@@ -6,7 +6,9 @@ def tail(f, num):
         dq.append(line)
     for line in dq:
         print(dq)
+        # return dq
 
-f = open('poem.txt')
-tail(f, 3)
-f.close()
+if __name__=='__main__':
+    with open('poem.txt') as f:
+        tail(f, 3)
+        f.close()
